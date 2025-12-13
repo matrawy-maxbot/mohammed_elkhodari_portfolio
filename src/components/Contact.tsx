@@ -61,7 +61,7 @@ export const Contact = () => {
     }));
   };
 
-  const resumeUrl = 'elkhodari-portfolio/my_resume.pdf';
+  const resumeUrl = 'my_resume.pdf';
 
   const checkIfResumeExists = async (): Promise<boolean> => {
     try {
