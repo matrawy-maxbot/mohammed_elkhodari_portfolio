@@ -16,5 +16,5 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react()
   ],
-  base: "/elkhodari-portfolio",
+  // base: "/elkhodari-portfolio", // تم التعليق لتعمل على Vercel بدون مشاكل
 }));

@@ -90,7 +90,7 @@ const Index = () => {
   return (
     <div className={`section-container bg-gray-800 pt-8 flex items-center justify-center ${!imageLoaded ? 'opacity-0' : 'opacity-100'} transition-opacity duration-500`}>
       <img 
-        src="elkhodari-portfolio/public/1.png" 
+        src="1.png" 
         alt="inner-curve" 
         className="avatar absolute top-0 left-0 w-full h-full object-cover object-top" 
         onLoad={() => setImageLoaded(true)}
