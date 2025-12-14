@@ -108,7 +108,7 @@ export const About = () => {
               className="overflow-hidden border-0 shadow-xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent hover:shadow-2xl transition-all duration-300 rounded-2xl p-6 text-center"
             >
               <div className="absolute -top-8 -left-8 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
-              <h3 className="text-4xl font-bold text-primary mb-2 relative z-10">40+</h3>
+              <h3 className="text-4xl font-bold text-primary mb-2 relative z-10">30+</h3>
               <p className="text-muted-foreground font-medium">Projects Completed</p>
             </motion.div>
             
@@ -120,7 +120,7 @@ export const About = () => {
               className="overflow-hidden border-0 shadow-xl bg-gradient-to-br from-transparent via-secondary/5 to-secondary/10 hover:shadow-2xl transition-all duration-300 rounded-2xl p-6 text-center"
             >
               <div className="absolute -bottom-8 -right-8 w-24 h-24 bg-secondary/10 rounded-full blur-2xl"></div>
-              <h3 className="text-4xl font-bold text-secondary mb-2 relative z-10">5+</h3>
+              <h3 className="text-4xl font-bold text-secondary mb-2 relative z-10">4+</h3>
               <p className="text-muted-foreground font-medium">Years Experience</p>
             </motion.div>
           </div>

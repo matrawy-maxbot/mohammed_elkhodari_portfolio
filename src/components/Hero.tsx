@@ -29,7 +29,7 @@ export const Hero = () => {
         {/* Left Content */}
         <div className="left-skills lg:col-span-4 space-y-6 relative z-10 animate-fade-in">          
           <div className="space-y-4">
-            <p className="text-lg text-gray-600 opacity-0 animate-[fadeInUp_0.6s_ease-out_0.2s_forwards]">Hey, I'm <span className="myName text-[#a4936a] font-bold">Mohammed Elkhodari,</span></p>
+            <p className="text-lg text-gray-600 opacity-0 animate-[fadeInUp_0.6s_ease-out_0.2s_forwards]">Hey, I'm <span className="myName text-[#a4936a] font-bold">Mohammed Elkhodary,</span></p>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight opacity-0 animate-[fadeInUp_0.8s_ease-out_0.4s_forwards]">
               A <span className="text-black">Senior</span><br />
               <span className="font-light italic text-3xl md:text-4xl">Full Stack</span><br />
@@ -38,7 +38,7 @@ export const Hero = () => {
           </div>
           
           <p className="text-gray-600 max-w-md leading-relaxed opacity-0 animate-[fadeInUp_0.6s_ease-out_0.6s_forwards]">
-          Designing the future of scalable systems – From high-load backends to cutting-edge UIs, I transform complex challenges into bulletproof architectures. Trusted by universities, healthcare giants & high-growth startups to build mission-critical platforms.
+          Designing the future of scalable systems – From high-load backends to cutting-edge UIs, I transform complex challenges into bulletproof architectures. Used by universities and growing organizations to build mission-critical platforms.
           </p>
           
           <div className="button-container opacity-0 animate-[fadeInUp_0.6s_ease-out_0.8s_forwards]">

@@ -112,7 +112,7 @@ export const CornerIcons = () => {
                                   fontFamily: "'OCR A Std', 'Courier New', monospace",
                                   letterSpacing: "0.05em",
                                   textTransform: "uppercase"
-                                }}>Mohammed Elkhodari</p>
+                                }}>Mohammed Elkhodary</p>
                               </div>
                               
                               {/* Stats in the center with improved spacing */}
@@ -121,7 +121,7 @@ export const CornerIcons = () => {
                                   <h3 className="text-5xl font-bold text-white" style={{
                                     fontFamily: "'Roboto Mono', 'DM Sans', monospace",
                                     letterSpacing: "-0.02em"
-                                  }}>40+</h3>
+                                  }}>30+</h3>
                                   <p className="text-white/80 font-medium text-base mt-1" style={{
                                     fontFamily: "'DM Sans', sans-serif",
                                     letterSpacing: "0.03em"
@@ -132,7 +132,7 @@ export const CornerIcons = () => {
                                   <h3 className="text-5xl font-bold text-white" style={{
                                     fontFamily: "'Roboto Mono', 'DM Sans', monospace",
                                     letterSpacing: "-0.02em"
-                                  }}>5+</h3>
+                                  }}>4+</h3>
                                   <p className="text-white/80 font-medium text-base mt-1" style={{
                                     fontFamily: "'DM Sans', sans-serif",
                                     letterSpacing: "0.03em"
