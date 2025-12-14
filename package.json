@@ -1,12 +1,12 @@
 {
   "name": "fullstack-portfolio",
   "description": "My CV Portfolio Website",
-  "author": "Elkhodari",
+  "author": "Mohammed Elkhodary",
   "license": "MIT",
-  "homepage": "https://matrawy-maxbot.github.io/elkhodari-portfolio/",
+  "homepage": "https://mohammed-elkhodari-portfolio.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matrawy-maxbot/elkhodari-portfolio"
+    "url": "https://github.com/matrawy-maxbot/mohammed_elkhodari_portfolio"
   },
   "private": true,
   "version": "2.0.0",

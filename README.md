@@ -1,98 +1,56 @@
-# Mohammed Elkhodari - Portfolio Website
+## Hi, I'm Mohammed Elkhodary 👋
 
-![Portfolio Preview](/public/16320.jpg)
+**Senior Full-Stack Engineer | Remote**
 
-## 📌 Overview
+I design and build large-scale, production-ready web platforms from the ground up.
+My work focuses on complex systems that combine real-time communication, role-based access control, analytics, and monetization.
 
-This is a modern, interactive portfolio website showcasing my skills, projects, and professional experience as a Full Stack Developer. The website features a sleek design with 3D effects, animations, and a responsive layout that works across all devices.
+---
 
-## 🚀 Features
+### What I Do
 
-- **Interactive UI** - Modern design with animations and 3D effects
-- **Responsive Layout** - Optimized for all screen sizes
-- **Project Showcase** - Detailed project cards with image carousels
-- **Skills Section** - Visual representation of technical skills
-- **Contact Form** - Integrated with EmailJS for direct messaging
-- **Resume Download** - Option to download CV in PDF format
-- **Social Media Integration** - Links to GitHub, LinkedIn, and WhatsApp
+* Architect and deliver end-to-end full-stack systems
+* Build real-time applications and dashboards used by thousands of users
+* Design scalable backends with clean APIs and maintainable architectures
+* Translate business requirements into reliable technical solutions
 
-## 💻 Technologies Used
+---
 
-- **Frontend Framework**: React with TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS
-- **UI Components**: shadcn/ui
-- **Animations**: Framer Motion
-- **Form Handling**: React Hook Form
-- **Email Integration**: EmailJS
+### Tech Stack
 
-## 🛠️ Installation & Setup
+**Frontend:** Next.js, React, TypeScript, Tailwind CSS
+**Backend:** Node.js, Express.js, REST, GraphQL
+**Databases:** PostgreSQL, MongoDB, Redis
+**Real-Time:** Socket.io, WebSockets
+**DevOps:** Docker, Git, GitHub
 
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/yourusername/my-cv-portfolio-website.git
-   cd my-cv-portfolio-website
-   ```
+---
 
-2. **Install dependencies**
-   ```sh
-   npm install
-   ```
+### Featured Projects
 
-3. **Run development server**
-   ```sh
-   npm run dev
-   ```
-   The site will be available at `http://localhost:5173` or `http://localhost:8080`
+**University LMS Platform**
+Enterprise-grade learning management system with multi-role access, real-time communication, and analytics dashboards.
 
-4. **Build for production**
-   ```sh
-   npm run build
-   ```
+**Enterprise Inventory Management System (IMS)**
+Complete business management solution with CRM, financial reporting, VAT compliance, and role-based permissions.
 
-## 📁 Project Structure
+**Genius Global Platform**
+Large-scale gaming ecosystem with esports tournaments, marketplace, rewards economy, and real-time leaderboards.
 
-```
-my-cv-portfolio-website/
-├── public/              # Static assets and images
-├── src/
-│   ├── components/      # UI components
-│   ├── data/            # JSON data for projects
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utility functions
-│   ├── pages/           # Page components
-│   ├── App.tsx          # Main application component
-│   └── main.tsx         # Application entry point
-├── index.html           # HTML template
-└── package.json         # Project dependencies
-```
+---
 
-## 📱 Responsive Design
+### How I Work (Remote-First)
 
-The website is fully responsive and optimized for:
-- Desktop computers
-- Tablets
-- Mobile phones
+* Comfortable owning systems end to end
+* Strong asynchronous communication and documentation habits
+* Focused on clarity, maintainability, and long-term scalability
 
-## 🔧 Customization
+---
 
-To customize this portfolio for your own use:
+### Open to Opportunities
 
-1. Update personal information in the Hero component
-2. Modify project data in `src/data/projects.json`
-3. Update skills in the Skills component
-4. Replace resume file in the public directory
-5. Update contact information in the Contact component
+I am open to **remote senior full-stack roles**, long-term contracts, and product-focused teams.
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 📞 Contact
-
-Feel free to reach out if you have any questions or would like to collaborate:
-
-- Email: mhmd.elkhodari@gmail.com
-- LinkedIn: [Mohammed Saeed](https://linkedin.com/in/mohammed-saeed-710b03250)
-- GitHub: [matrawy-maxbot](https://github.com/matrawy-maxbot)
-"# elkhodari-portfolio" 
+- 📫 Email: [123mohamed.clash123@gmail.com](mailto:123mohamed.clash123@gmail.com)
+- 🌐 Portfolio: [https://mohammed-elkhodari-portfolio.vercel.app/](https://mohammed-elkhodari-portfolio.vercel.app/)
+- 💼 LinkedIn: linkedin.com/in/mohammed-saeed-710b03250
