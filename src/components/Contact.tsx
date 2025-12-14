@@ -28,7 +28,7 @@ export const Contact = () => {
       const publicKey = "UZlpOfSBvxkZMO3jd";
       
       const templateParams = {
-        to_email: "mhmd.elkhodari@gmail.com",
+        to_email: "123mohamed.clash123@gmail.com",
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
@@ -177,7 +177,7 @@ export const Contact = () => {
               </div>
               <div>
                 <h3 className="font-semibold text-sm sm:text-base">Email</h3>
-                <p className="text-muted-foreground text-xs sm:text-sm break-all">mhmd.elkhodari@gmail.com</p>
+                <p className="text-muted-foreground text-xs sm:text-sm break-all">123mohamed.clash123@gmail.com</p>
               </div>
             </CardContent>
           </Card>
