@@ -61,7 +61,7 @@ export const Contact = () => {
     }));
   };
 
-  const resumeUrl = 'my_resume.pdf';
+  const resumeUrl = 'Mohammed_Elkhodary_CV.pdf';
 
   const checkIfResumeExists = async (): Promise<boolean> => {
     try {

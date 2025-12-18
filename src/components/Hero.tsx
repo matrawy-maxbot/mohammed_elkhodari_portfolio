@@ -31,7 +31,7 @@ export const Hero = () => {
           <div className="space-y-4">
             <p className="text-lg text-gray-600 opacity-0 animate-[fadeInUp_0.6s_ease-out_0.2s_forwards]">Hey, I'm <span className="myName text-[#a4936a] font-bold">Mohammed Elkhodary,</span></p>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight opacity-0 animate-[fadeInUp_0.8s_ease-out_0.4s_forwards]">
-              A <span className="text-black">Senior</span><br />
+              A <span className="text-black">Mid-Level</span><br />
               <span className="font-light italic text-3xl md:text-4xl">Full Stack</span><br />
               <span className="text-black">Developer</span>
             </h1>
