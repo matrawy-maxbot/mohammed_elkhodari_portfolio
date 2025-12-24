@@ -4,12 +4,15 @@ import animate from "tailwindcss-animate";
 export default {
 	darkMode: ["class"],
 	content: [
+		"./index.html",
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
 	],
 	prefix: "",
+	safelist: [],
+	blocklist: [],
 	theme: {
 		container: {
 			center: true,

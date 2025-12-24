@@ -32,6 +32,17 @@
     <link rel="preload" as="image" href="/1.webp" />
     <link rel="preload" as="image" href="/bg-cover.webp" />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    
+    <!-- Critical CSS -->
+    <style>
+      /* Critical styles للتحميل الفوري */
+      #root { min-height: 100vh; }
+      .bg-gray-800 { background-color: rgb(31 41 55); }
+      .opacity-0 { opacity: 0; }
+      .opacity-100 { opacity: 1; }
+      .transition-opacity { transition-property: opacity; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+      .duration-500 { transition-duration: 500ms; }
+    </style>
   </head>
 
   <body>

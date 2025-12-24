@@ -14,19 +14,38 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    // تقليل حجم الـ chunks
+    cssMinify: true,
     rollupOptions: {
       output: {
-        manualChunks: {
-          // فصل المكتبات الكبيرة
-          'radix-ui': ['@radix-ui/react-accordion', '@radix-ui/react-alert-dialog', '@radix-ui/react-avatar', '@radix-ui/react-checkbox'],
-        }
-      }
+        manualChunks(id) {
+          // فصل node_modules
+          if (id.includes('node_modules')) {
+            // فصل Radix UI
+            if (id.includes('@radix-ui')) {
+              return 'radix-ui';
+            }
+            // فصل React Query
+            if (id.includes('@tanstack')) {
+              return 'tanstack';
+            }
+            // فصل React Router
+            if (id.includes('react-router')) {
+              return 'react-router';
+            }
+            // باقي المكتبات
+            return 'vendor';
+          }
+        },
+        // تقليل أسماء الملفات
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]',
+      },
     },
-    // استخدام esbuild للـ minification (مدمج مع Vite)
     minify: 'esbuild',
-    // تقليل حجم الـ chunks
-    chunkSizeWarningLimit: 600,
+    target: 'esnext',
+    chunkSizeWarningLimit: 500,
+    cssCodeSplit: true,
   },
   plugins: [
     react()

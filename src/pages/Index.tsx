@@ -1,7 +1,10 @@
 import { Hero } from "@/components/Hero";
 import { CornerIcons } from "@/components/CornerIcons";
 import { ProjectsMarquee } from "@/components/ProjectsMarquee";
-import { useEffect, useState } from "react";
+import { useEffect, useState, lazy, Suspense } from "react";
+
+// Lazy load ProjectsMarquee إذا لم يكن critical
+const LazyProjectsMarquee = lazy(() => import("@/components/ProjectsMarquee").then(m => ({ default: m.ProjectsMarquee })));
 
 function setIconsStartLocation() {
   const titleText = document.querySelector('.title-text');
@@ -139,7 +142,9 @@ const Index = () => {
       </a>
       <div data-icon="icons-cover" className="icons-cover community-icon w-[12px] h-[12px] bg-black rounded-full absolute top-0 left-0 shadow-lg opacity-0 animate-[changeColor_3s_ease-in-out_1s_forwards]"></div>
       
-      <ProjectsMarquee />
+      <Suspense fallback={null}>
+        <LazyProjectsMarquee />
+      </Suspense>
     </div>
   );
 };
