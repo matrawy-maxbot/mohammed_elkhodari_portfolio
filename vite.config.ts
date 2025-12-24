@@ -13,6 +13,26 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    // تقليل حجم الـ chunks
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // فصل المكتبات الكبيرة
+          'radix-ui': ['@radix-ui/react-accordion', '@radix-ui/react-alert-dialog', '@radix-ui/react-avatar', '@radix-ui/react-checkbox'],
+        }
+      }
+    },
+    // تحسين سرعة البناء والأداء
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: mode === 'production',
+      },
+    },
+    // تقليل حجم الـ chunks
+    chunkSizeWarningLimit: 600,
+  },
   plugins: [
     react()
   ]

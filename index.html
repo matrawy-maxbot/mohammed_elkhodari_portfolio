@@ -27,10 +27,16 @@
     
     <!-- Theme Color for browsers -->
     <meta name="theme-color" content="#000000" />
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" as="image" href="/1.webp" />
+    <link rel="preload" as="image" href="/bg-cover.webp" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   </head>
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Async load non-critical JS, Defer main app script -->
+    <script type="module" src="/src/main.tsx" defer></script>
   </body>
 </html>
