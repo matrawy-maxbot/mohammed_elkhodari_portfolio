@@ -23,13 +23,8 @@ export default defineConfig(({ mode }) => ({
         }
       }
     },
-    // تحسين سرعة البناء والأداء
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: mode === 'production',
-      },
-    },
+    // استخدام esbuild للـ minification (مدمج مع Vite)
+    minify: 'esbuild',
     // تقليل حجم الـ chunks
     chunkSizeWarningLimit: 600,
   },
