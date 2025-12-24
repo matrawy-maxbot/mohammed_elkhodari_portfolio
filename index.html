@@ -28,10 +28,16 @@
     <!-- Theme Color for browsers -->
     <meta name="theme-color" content="#000000" />
     
+    <!-- DNS Prefetch & Preconnect for External Origins -->
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+    <link rel="dns-prefetch" href="https://wa.me" />
+    <link rel="dns-prefetch" href="https://github.com" />
+    <link rel="dns-prefetch" href="https://linkedin.com" />
+    
     <!-- Preload Critical Resources -->
-    <link rel="preload" as="image" href="/1.webp" />
-    <link rel="preload" as="image" href="/bg-cover.webp" />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preload" as="image" href="/1.webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="/bg-cover.webp" fetchpriority="high" />
     
     <!-- Critical CSS -->
     <style>

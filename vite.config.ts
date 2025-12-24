@@ -15,6 +15,9 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     cssMinify: true,
+    modulePreload: {
+      polyfill: false, // تحسين الأداء
+    },
     rollupOptions: {
       output: {
         manualChunks(id) {
