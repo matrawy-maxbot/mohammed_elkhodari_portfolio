@@ -90,14 +90,14 @@ const Index = () => {
   return (
     <div className={`section-container bg-gray-800 pt-8 flex items-center justify-center ${!imageLoaded ? 'opacity-0' : 'opacity-100'} transition-opacity duration-500`}>
       <img 
-        src="1.png" 
-        alt="inner-curve" 
+        src="1.webp" 
+        alt="Mohammed Saeed - Full Stack Developer" 
         className="avatar absolute top-0 left-0 w-full h-full object-cover object-top" 
         onLoad={() => setImageLoaded(true)}
       />
       <div className="filter-shadow">
         <div className="inner-curve bg-white rounded-3xl shadow-2xl overflow-hidden w-full max-w-[1400px] relative">
-          <img src="download.jpeg" alt="background" className="fixed top-0 left-0 w-full h-full object-cover object-top" />
+          <img src="bg-cover.webp" alt="background" className="fixed top-0 left-0 w-full h-full object-cover object-top" />
           <div className="background-cover absolute top-0 left-0 w-full h-full bg-gray-200 opacity-[97%]"></div>
           <Hero />
           <CornerIcons />
